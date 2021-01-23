@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Layout Instagram com Bootstrap</title>
+
+    <style>
+        body{
+            font-family:Helvetica, sans-serif;
+
+        }
+        header{
+            width: 100%;
+            padding-top: 15px;
+            background-color: white;
+            border-bottom: 1px solid whitesmoke;
+            box-shadow: 2px whitesmoke ;
+        }
+        h3{
+            font-weight: 400;
+        }
+        ul{
+            list-style: none;
+            text-decoration: none;
+            display: inline;
+        }
+        i{
+            padding:3%;
+        }
+        section{
+            padding-right:0 5%;
+        }
+        .img-profile{
+            border-radius: 50%;
+        }
+        #secao-dados{
+            padding-top: 50px;
+        }
+        .btn-dados{
+            border: 1px solid grey;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .fa-caret-right{
+            background-color: #F87D13;
+            color: white;
+            width: 15px;
+            height: 15px;
+            padding-left: 1%;
+        }
+        .linha-publicacao{
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body class="bg-light">
+   <header> 
+       <div class="container text-center">
+           <div class="row">
+           <div class="col-md-4">
+                <!-- As a heading -->
+        <nav class="navbar navbar-light">
+            <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">
+                <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="" class="img-fluid">
+            </span>
+            </div>
+        </nav>
+           </div>
+           <div class="col-md-4">
+               <input type="text" class="form-control" placeholder="Pesquisar" style="background-color: whitesmoke" >
+           </div>
+
+           <div class="col-md-4">
+            <span class="navbar-brand mb-0 h1"><i class="fas fa-home"></i></span>
+            <span class="navbar-brand mb-0 h1"><i class="fas fa-compass"></i></span>
+            <span class="navbar-brand mb-0 h1 "><i class="fas fa-coffee"></i></span>
+            <span class="navbar-brand mb-0 h1"><i class="fas fa-heart"></i></span>
+            <span class="navbar-brand mb-0 h1">
+
+                    <img src="https://instagram.fjdo1-2.fna.fbcdn.net/v/t51.2885-19/s150x150/140055104_217564873433762_6773834249550402878_n.jpg?_nc_ht=instagram.fjdo1-2.fna.fbcdn.net&_nc_ohc=S9Em-1IwrFMAX-qskSK&tp=1&oh=63a20d679e4ba68e94d9f9a4be65d6c1&oe=60348B33" alt="" class="img-fluid img-profile col-md-1">
+            
+            </span>
+           
+            
+            
+            </div>
+           </div>
+       </div>
+    </div> 
+   </header>
+   <section id="secao-dados">
+       <div class="container">
+            <div class="row">
+                <div class="col-md-1"></div>
+               
+                <div class="col-md-3">
+                    <img src="https://instagram.fjdo1-2.fna.fbcdn.net/v/t51.2885-19/s150x150/140055104_217564873433762_6773834249550402878_n.jpg?_nc_ht=instagram.fjdo1-2.fna.fbcdn.net&_nc_ohc=S9Em-1IwrFMAX-qskSK&tp=1&oh=63a20d679e4ba68e94d9f9a4be65d6c1&oe=60348B33" alt="" class="img-fluid img-profile">
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                    <div class="col-md-4">
+                        <h3>dassaev_lima</h3>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="navbar-brand mb-0 h3"> <button type="button" class="btn btn-dados" >Enviar mensagem</button>
+                        </span>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="navbar-brand mb-0 h3"><button type="button" class="btn btn-dados" ><i class="fas fa-user"></i></button></span>
+                        <span class="navbar-brand mb-0 h3"><button type="button" class="btn btn-dados" ><i class="fas fa-caret-down "></i></i></button>
+                        <span class="navbar-brand mb-0 h4"><i class="fas fa-ellipsis-h"></i></span>
+                    </div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <p><strong>10</strong> publicações</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><strong>241</strong> seguidores</p>
+                        </div>
+                        <div class="col-md-3">
+                            <p><strong>143</strong> seguindo</p>
+                        </div>
+                        <div class="col-md-3">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p><span class="fas fa-caret-right ">                               
+                            </span> Desenvolvedor web<br>
+                            <span class="fas fa-caret-right ">                               
+                            </span> O meu trabalho é facilitar o seu
+                            </p>
+                        </div>
+                    </div>
+                        
+                </div>
+            </div>
+        </div>
+            
+                <div class="col-md-2"></div>
+   </section>
+   <hr  class="container" style="width: 75%; height: 1px; background-color: grey;">
+   <section id="secao-publicacoes">
+        <div class="container">
+            <div class="row linha-publicacao">
+                <img   src="https://instagram.fjdo1-1.fna.fbcdn.net/v/t51.2885-15/e35/s240x240/139342097_159376655688133_5977291334365621545_n.jpg?_nc_ht=instagram.fjdo1-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=C_p5b5gpc64AX-_eyR3&tp=1&oh=9961b2a245df5f35940560c2b79423ca&oe=60314584" alt="" class="img-fluid col-md-4">
+                <img src="https://instagram.fjdo1-1.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/106356669_280932646560611_8048968839310562187_n.jpg?_nc_ht=instagram.fjdo1-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=uvMZhaG4kXEAX8t7jOL&tp=1&oh=b174db9238cf0f9ed159f24f860b063b&oe=603172AE" alt="" class="img-fluid col-md-4">
+                <img src="https://instagram.fjdo1-2.fna.fbcdn.net/v/t51.2885-15/e35/c68.0.481.481a/93360319_543592669676253_3476211145729997255_n.jpg?_nc_ht=instagram.fjdo1-2.fna.fbcdn.net&_nc_cat=109&_nc_ohc=wdNJLWxgX7UAX_D-aSi&tp=1&oh=16a5d49b35bce80ea526ee922e26157a&oe=6033DC91" alt="" class="img-fluid col-md-4">     
+            </div>
+            <div class="row linha-publicacao">
+                <img   src="https://instagram.fjdo1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/139126400_1587263518146797_8212709282499140383_n.jpg?_nc_ht=instagram.fjdo1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=EADZNRs9SVwAX-HbzfS&tp=1&oh=e287f3207abe17a5c63d9c275de8d608&oe=60311AE6" alt="" class="img-fluid col-md-4">
+                <img src="https://instagram.fjdo1-2.fna.fbcdn.net/v/t51.2885-15/e35/117119916_194139052090917_8177830441598333304_n.jpg?_nc_ht=instagram.fjdo1-2.fna.fbcdn.net&_nc_cat=109&_nc_ohc=NNCrn5B-BZcAX-Omokb&tp=1&oh=1d05c3d6cdbc29eb481c15bfc28e07f0&oe=60324B71" alt="" class="img-fluid col-md-4">
+                <img src="https://instagram.fjdo1-1.fna.fbcdn.net/v/t51.2885-15/e35/s320x320/103939687_310054833341321_8378396457895561985_n.jpg?_nc_ht=instagram.fjdo1-1.fna.fbcdn.net&_nc_cat=105&_nc_ohc=uBgMd0O8tpsAX9R8ldH&tp=1&oh=ef4047e0df4bdea4dba5cada68e02ea6&oe=603342FD" alt="" class="img-fluid col-md-4">     
+            </div>
+        </div>
+   </section>
+ 
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
